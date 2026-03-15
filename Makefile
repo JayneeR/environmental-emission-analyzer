@@ -1,4 +1,1 @@
-install:
-	pip install -r requirements.txt
-test:
-	pytest tests/
+install:\n	pip install -r requirements.txt\n\ntest:\n	pytest tests/\n\nbuild:\n	docker build -t environmental-emission-analyzer .\n\nclean:\n	find . -type d -name "__pycache__" -exec rm -rf {} +\n
