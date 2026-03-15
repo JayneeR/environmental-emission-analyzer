@@ -1,7 +1,1 @@
-streamlit
-plotly
-pandas
-numpy
-scipy
-scikit-learn
-pytest
+streamlit\nplotly\npandas\nnumpy\nscipy\nscikit-learn\npytest\n
